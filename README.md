@@ -21,7 +21,7 @@ run the code from a Process Builder process.
 
 1. Follow this link to install the unmanaged package:
 
-  https://goo.gl/YhVkgl
+  https://goo.gl/4cwVvI
 
   Installation as an administrator is probably fine as users will be 
   triggering the classes via workflow and therefore will not require 
