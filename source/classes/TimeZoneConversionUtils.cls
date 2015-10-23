@@ -76,7 +76,7 @@ public class TimeZoneConversionUtils {
                 gmtDateTime = (DateTime)record.get(conversionSettings.get(targetField).Source_Field_API_Name__c);                    
                 timeZone = (string)record.get(conversionSettings.get(targetField).Offset_Field_API_Name__c);
 
-                localDateTime = gmtDateTime.format('dd-MM-YYYY HH:mm:ss EEEE', timeZone);
+                localDateTime = gmtDateTime.format('dd-MM-yyyy HH:mm:ss EEEE', timeZone);
 
                 record.put(targetField, localDateTime);
             }
